@@ -26,9 +26,11 @@ hr {
 body{
 	margin: 0
 }
-div{
+
+div, a{
 	background-color: rgba(0,0,0,.2);/*opacity is .7 normally*/
 	width: 40%;
+	 text-decoration: none;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
@@ -36,13 +38,6 @@ div{
 	border-style: solid;
 	border-color: white;
 	color:white;
-}
-.disabledLink {
-	text-align: center;
-	color: transparent;
-	background-color: transparent;
-	pointer-events:none;
-	cursor: default;
 }
 .Ex{
 	font-family: Futura_Extended;
@@ -67,7 +62,7 @@ div{
 }
 
 #DivHead{
-	margin-top: .666666666666666666666666666666666666666666666666666666666666666666666666666666666666%;
+	margin-top: .666666%;
 	width: 40%;
 }
 #DivPara{
@@ -87,29 +82,24 @@ div{
 .Button{
 	display: inline-block;
 	width: 11%;
+	position: relative;
 	margin-right: .6875%;
 	margin-left: .6875%;
 	border-radius: 10em;
 	text-align: center;
 	max-height:3.5em;
-	pointer-events:auto;
-	cursor: pointer;
 }
 	.Button:hover{
 		background-color: rgba(255,255,255,.3);
 		border-color: black;
 		transform: scale(1.1);
-		cursor: pointer;
 	}
 		.Button:hover .ButtonText{
 			color: black;
-			cursor: pointer;
 		}
 		.Button:hover .ImgButton{
 			-webkit-filter: invert(1);
    			filter: invert(1);
-   			cursor: pointer;
-
 		}
 	.Button:active{
 		background-color: rgba(255,0,255,.3);
