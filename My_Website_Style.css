@@ -1,0 +1,33 @@
+@font-face {
+	font-family: Futura_Extended; /*a name to be used later*/
+	src: url(./futuraextended.ttf); /*URL to font*/
+}
+@font-face {
+	font-family: Futura_Light; /*a name to be used later*/
+	src: url(./futuralight.ttf); /*URL to font*/
+}
+@font-face {
+	font-family: Futura_Oblique; /*a name to be used later*/
+	src: url(./futuraoblique.ttf); /*URL to font*/
+}
+html{
+	background-color: #F9F3EC;
+	color: #800040;
+}
+hr {
+	width: 40%;
+	height: 1px;
+	color: #800040;
+	background-color: #800040;
+	border: none;
+}
+.Heading{
+	font-family: Futura_Extended;
+	text-align: center;
+}
+.Li{
+	font-family: Futura_Light;
+}
+.Ob{
+	font-family: Futura_Oblique;
+}

@@ -1,0 +1,121 @@
+@font-face {
+	font-family: Futura_Extended; /*a name to be used later*/
+	src: url(./futuraextended.ttf); /*URL to font*/
+}
+@font-face {
+	font-family: Futura_Light; /*a name to be used later*/
+	src: url(./futuralight.ttf); /*URL to font*/
+}
+@font-face {
+	font-family: Futura_Oblique; /*a name to be used later*/
+	src: url(./futuraoblique.ttf); /*URL to font*/
+}
+html{
+	background-color: #F9F3EC;
+	background-image: url("Wallpaper1.png");
+	background-size: cover;
+	color: white;/*maroonish color*/
+	min-height: 100%;
+}
+hr {
+	width: 10%;/*40 normally*/
+	background-color: rgba(0,0,0,0);
+}
+body{
+	margin: 0
+}
+div{
+	background-color: rgba(0,0,0,.7);/*opacity is .7 normally*/
+	width: 40%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px; 
+	border-style: solid;
+	border-color: white;
+	color:white;
+}
+a {
+    text-decoration: none;
+}
+.Heading{
+	font-family: Futura_Extended;
+	text-align: center;
+}
+.Ex{
+	font-family: Futura_Extended;
+}
+.ButtonText{
+	display: inline-block;
+	font-family: Futura_Light;
+	font-size: 1.2em;
+	margin:5px;
+}
+.Ob{
+	font-family: Futura_Oblique;
+	text-align: left;
+	text-indent: 4%;
+	font-size: 1.3em;
+	margin-left:1%; 
+	margin-right:1%;
+}
+
+#DivHead{
+	margin-top: .666666666666666666666666666666666666666666666666666666666666666666666666666666666666%;
+	width: 40%;
+}
+#DivPara{
+	width: 80%;
+}
+#DivClr{
+	background-color: rgba(0,0,0,0);
+	border-style: hidden;
+	border-color: blue;
+	width:100%;
+}
+.ImgButton{
+	width: 1.5em;
+	height:1.5em;
+	vertical-align: text-bottom;
+}
+.Button{
+	display: inline-block;
+	width: 11%;
+	margin-right: .6875%;
+	margin-left: .6875%;
+	border-radius: 10em;
+	text-align: center;
+	max-height:3.5em;
+}
+	.Button:hover{
+		background-color: rgba(255,255,255,.3);
+		border-color: black;
+	}
+		.Button:hover .ButtonText{
+			color: black;
+		}
+		.Button:hover .ImgButton{
+			-webkit-filter: invert(1);
+   			filter: invert(1);
+
+		}
+	.Button:active{
+		background-color: rgba(255,0,255,.3);
+	}
+	.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.flipped {
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+}
