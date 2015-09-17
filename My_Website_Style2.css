@@ -41,7 +41,7 @@ div{
 	text-align: center;
 	color: transparent;
 	background-color: transparent;
-	pointer-events:auto;
+	pointer-events:none;
 	cursor: default;
 }
 .Ex{
@@ -92,6 +92,7 @@ div{
 	border-radius: 10em;
 	text-align: center;
 	max-height:3.5em;
+	pointer-events:auto;
 	cursor: pointer;
 }
 	.Button:hover{
