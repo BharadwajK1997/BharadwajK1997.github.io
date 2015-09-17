@@ -20,12 +20,14 @@ html{
 hr {
 	width: 10%;/*40 normally*/
 	background-color: rgba(0,0,0,0);
+	cursor: default;
+	pointer-events:none;
 }
 body{
 	margin: 0
 }
 div{
-	background-color: rgba(0,0,0,.7);/*opacity is .7 normally*/
+	background-color: rgba(0,0,0,.2);/*opacity is .7 normally*/
 	width: 40%;
 	text-align: center;
 	margin-right: auto;
@@ -35,12 +37,12 @@ div{
 	border-color: white;
 	color:white;
 }
-a {
-    text-decoration: none;
-}
-.Heading{
-	font-family: Futura_Extended;
+.disabledLink {
 	text-align: center;
+	color: transparent;
+	background-color: transparent;
+	pointer-events:auto;
+	cursor: default;
 }
 .Ex{
 	font-family: Futura_Extended;
@@ -58,6 +60,10 @@ a {
 	font-size: 1.3em;
 	margin-left:1%; 
 	margin-right:1%;
+    text-decoration: none;
+}
+.Heading{
+	font-family: Futura_Extended;
 }
 
 #DivHead{
@@ -86,17 +92,22 @@ a {
 	border-radius: 10em;
 	text-align: center;
 	max-height:3.5em;
+	cursor: pointer;
 }
 	.Button:hover{
 		background-color: rgba(255,255,255,.3);
 		border-color: black;
+		transform: scale(1.1);
+		cursor: pointer;
 	}
 		.Button:hover .ButtonText{
 			color: black;
+			cursor: pointer;
 		}
 		.Button:hover .ImgButton{
 			-webkit-filter: invert(1);
    			filter: invert(1);
+   			cursor: pointer;
 
 		}
 	.Button:active{
